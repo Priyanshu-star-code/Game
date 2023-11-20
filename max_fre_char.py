@@ -4,7 +4,7 @@ from collections import Counter
 string = input("enter string ")
 # Split the input string into words
 words = string.split()
-# word cout 
+# word cout git 
 count_words = Counter(words)
 # use max function
 max_word = max(count_words, key=count_words.get)
